@@ -31,6 +31,13 @@ $orange:          #f98012; // Accent (never text).
 $yellow:          #fbad1a; // Accent (never text).
 $purple:          #8e24aa; // Accent (never text).
 
+/* ABAKADA Colors */
+$abakada-primary-1 : #3e6bb4;
+$abakada-primary-1-lightest : #b1c3e0;
+$abakada-primary-2: #95d5f0;
+$abakada-primary-3: #f0e40f;
+$abakada-primary-4: #f6ab63;
+
 // Branded apps customization
 // --------------------------------------------------
 @import "bmma";
@@ -52,9 +59,9 @@ $orange-light:    lighten($orange, 10%) !default;
 $yellow-light:    mix($yellow, white, 20%) !default;
 $yellow-dark:     mix($yellow, black, 40%) !default;
 
-$core-color:          $orange !default;
-$core-color-light:    lighten($core-color, 10%) !default;
-$core-color-dark:     darken($core-color, 10%) !default;
+$core-color:          $abakada-primary-1 !default;
+$core-color-light:    lighten($abakada-primary-1, 10%) !default;
+$core-color-dark:     darken($abakada-primary-1, 10%) !default;
 
 $core-course-image-background: #81ecec, #74b9ff, #a29bfe, #dfe6e9, #00b894, #0984e3, #b2bec3, #fdcb6e, #fd79a8, #6c5ce7 !default;
 
@@ -137,7 +144,7 @@ $subdued-text-color:         $gray-darker !default;
 $list-background-color:      $white !default;
 
 $tabs-background:            $gray-darker !default;
-$tabs-border-color:          #b2b2b2 !default;
+$tabs-border-color:          #d3edf8 !default;
 $tabs-tab-color-active:      $core-color !default;
 $tabs-tab-color-inactive:    $white !default;
 $ion-tabs-badge-color:       $tabs-tab-color-active !default;
@@ -149,7 +156,7 @@ $button-md-box-shadow: 0 2px 2px 1px rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 
 
 $refresher-icon-color: $core-color !default;
 
-$core-online-color: #5cb85c;
+$core-online-color: #f4eb56;
 
 $core-placeholder-color: $gray-dark !default;
 $core-select-placeholder-color: $core-placeholder-color !default;
